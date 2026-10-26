@@ -1,0 +1,14 @@
+{
+  // Makes Monaco keep real text in its hidden textarea, which often helps native mobile selection.
+  "editor.accessibilitySupport": "on",
+  // Ctrl/Cmd+C with nothing selected copies the whole line.
+  "editor.emptySelectionClipboard": true,
+  // Long-press / right-click in the terminal pastes instead of opening a menu.
+  "terminal.integrated.rightClickBehavior": "paste",
+  // Copy terminal text as soon as it is selected.
+  "terminal.integrated.copyOnSelection": true,
+  // Larger touch targets on small screens.
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 15,
+  "editor.minimap.enabled": false
+}
